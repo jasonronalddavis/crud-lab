@@ -23,6 +23,7 @@ class ReviewsContainer extends Component {
 }
 
 const mapStateToProps = (state) => {
+
   return{
     reviews: [...state.reviews]
   }
