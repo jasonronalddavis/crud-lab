@@ -23,6 +23,7 @@ class ReviewInput extends Component {
   }
 
   render() {
+    debugger;
     return (
      <div>
         <form onSubmit={this.handleOnSubmit} >
