@@ -14,8 +14,9 @@ class ReviewsContainer extends Component {
           restaurantId={this.props.restaurantId}
         />
         <Reviews 
-        reviews={this.props.reviews.filter(r => r.restaurantId === this.props.restaurantId)}
-        deleteReview={this.props.deleteReview}
+      reviews={this.props.reviews}
+          restaurantId={this.props.restaurantId}
+          deleteReview={this.props.deleteReview}
         />
       </div>
     )

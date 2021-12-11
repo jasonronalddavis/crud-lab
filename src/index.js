@@ -8,7 +8,7 @@ import { createStore } from 'redux';
 
 
 
-let store = createStore(manageRestaurant);
+let store = createStore(manageRestaurant,window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__() );
 
 
 ReactDOM.render(
@@ -18,4 +18,3 @@ ReactDOM.render(
 document.getElementById('root')
 );
 
-debugger;
