@@ -6,7 +6,9 @@ import manageRestaurant from './reducers/manageRestaurant';
 import { Provider } from 'react-redux';
 import { createStore } from 'redux';
 
-const store = createStore(manageRestaurant);
+
+
+let store = createStore(manageRestaurant);
 
 
 ReactDOM.render(
@@ -15,3 +17,5 @@ ReactDOM.render(
   </Provider>,
 document.getElementById('root')
 );
+
+debugger;
